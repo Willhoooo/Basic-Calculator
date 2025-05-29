@@ -1,1 +1,3 @@
-This is a simple calculator made by me with the purpose of my practical learning involving HTML, CSS, and Java. It includes the functions of addition, subtraction, multiplication, and division.
+Esta é uma calculadora desenvolvida por mim com o objetivo de praticar e consolidar meus conhecimentos em HTML, CSS e JavaScript.
+A interface foi estruturada em HTML, estilizada com CSS externo e as funcionalidades são controladas por um script em JavaScript.
+A calculadora permite realizar operações básicas como adição, subtração, multiplicação, divisão, cálculo de porcentagem, além de incluir botões para limpar a entrada (AC), apagar o último dígito (DEL) e inserir números com ponto decimal.
