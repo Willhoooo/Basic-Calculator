@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- Declara o tipo do documento como HTML5 -->
+<html lang="pt-br">
+<!-- Início do documento HTML com o idioma definido como português brasileiro -->
+
+  <head>
+  <!-- Cabeçalho do documento, contém metadados e links externos -->
+    <meta charset="UTF-8" />
+    <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Faz o site ser responsivo, ajustando a largura da página ao tamanho da tela do dispositivo -->
+    <link rel="stylesheet" href="style-calculadora.css" />
+    <!-- Importa um arquivo CSS externo para estilizar a página -->
+
+    <title>Calculadora - por William</title>
+    <!-- Define o título da aba do navegador -->
+
+  </head>
+
+  <body>
+    <div class="container">
+    <!-- Contêiner principal para centralizar ou agrupar os elementos -->
+      <div class="calculadora">
+      <!-- div que representa a calculadora em si -->
+        <input type="text" id="inputBox" placeholder="0" />
+        <!-- Campo de entrada de texto onde os números e operações são exibidos -->
+
+        <div>
+        <!-- Linha de botões da primeira fileira -->
+          <button class="btn-operador">AC</button> <!-- Limpar tudo -->
+          <button class="btn-operador">DEL</button> <!-- Apagar o último caractere -->
+          <button class="btn-operador">%</button> <!-- Porcentagem -->
+          <button class="btn-operador">/</button> <!-- Divisão -->
+        </div>
+
+        <div>
+        <!-- Linha de botões da segunda fileira -->
+          <button class="btn">7</button> <!-- 7 -->
+          <button class="btn">8</button> <!-- 8 -->
+          <button class="btn">9</button> <!-- 9 -->
+          <button class="btn-operador">*</button> <!-- Multiplicação -->
+        </div>
+        <div>
+          <button class="btn">4</button> <!-- 4 -->
+          <button class="btn">5</button> <!-- 5 -->
+          <button class="btn">6</button> <!-- 6 -->
+          <button class="btn-operador">-</button> <!-- Subtração -->
+        </div>
+        <div>
+          <button class="btn">1</button> <!-- 1 -->
+          <button class="btn">2</button> <!-- 2 -->
+          <button class="btn">3</button> <!-- 3 -->
+          <button class="btn-operador">+</button> <!-- Soma -->
+        </div>
+
+        <div>
+          <button class="btn">00</button> <!-- Duplo zero -->
+          <button class="btn">0</button> <!-- 0 -->
+          <button class="btn">.</button> <!-- Ponto decimal (vírgula) -->
+          <button class="btn-igual">=</button> <!-- Igual -->
+        </div>
+      </div>
+    </div>
+
+    <script src="script-calculadora.js"></script>
+    <!-- Importa um arquivo JavaScript externo para adicionar as funcionalidades à calculadora -->
+  </body>
+</html>
